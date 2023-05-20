@@ -1,3 +1,26 @@
+:root {
+  --primaryText: black;
+}
+
 * {
-  background-color: antiquewhite;
+  color: var(--primaryText);
+}
+
+a {
+  text-decoration: none;
+}
+.navi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  width: 100vw;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 80%;
+  column-gap: 10%;
 }
